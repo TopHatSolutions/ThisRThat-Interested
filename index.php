@@ -9,6 +9,12 @@
   <body>
     <header></header>
     <div id="content">
+      <div class="notice-good">
+        <p><?= $notice ?>
+      </div>
+      <div class="notice-error">
+        <p><?= $notice ?>
+      </div>
       <form method="POST">
         <input type="text" placeholder="Your Name" name="name" />
         <input type="email" placeholder="Your Email" name="email_address" />
